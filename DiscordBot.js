@@ -1,4 +1,4 @@
-const{ Client, GatewayIntentBits ,EmbedBuilder, PermisionsBitField, Permissions, ActivityType} = require("discord.js");
+ const{ Client, GatewayIntentBits ,EmbedBuilder, PermisionsBitField, Permissions, ActivityType} = require("discord.js");
 const prefix = "!";
 const client = new Client({intents:[GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
@@ -40,8 +40,8 @@ client.on("messageCreate", (message) =>{
 
 
 
-
-client.login("MTAzNDYzMzYyNDcxNDIxNTQzNg.GK57_k.vDflp5OyzHD2lwSHfMbzvW3yXkW70xDQCX510k");
+ //Place discord bot developer token here
+client.login();
 
 
 
